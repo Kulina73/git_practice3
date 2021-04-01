@@ -1,0 +1,29 @@
+p{
+    font-family: 'Charm', cursive;
+    text-indent: 2rem;
+}
+.light {
+    font-weight: 400;
+}
+.bold {
+    font-weight: 700;
+}
+.emph {
+    text-transform: uppercase;
+    font-style: italic;
+}
+.space {
+    letter-spacing: 0.5rem;
+}
+h1 {
+    font-size: 8rem;
+    text-shadow: -3px 3px 4px rgb(129, 44, 58);
+}
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    }
+a:hover {text-decoration: underline;}
+span {
+    text-decoration-line: line-through;
+}
