@@ -1,0 +1,23 @@
+body {
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+div {
+    height: 50px;
+    width: 60px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    background-color: thistle;
+    margin: 10px;
+    text-align: end;
+    flex: 3 1 auto;
+}
+.dif04 {
+    align-self: flex-start;
+}
+.dif10 {
+    align-self: center; 
+}
