@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-flow: row wrap;*/
+    height: 100vh;
+    border: 10px solid blue;
+    background-image: url(PXL_20201229_141352141.PORTRAIT.jpg);
+    background-size: cover;
+}
+
+p {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    /*justify-content: center;
+    align-items: center;*/
+}
