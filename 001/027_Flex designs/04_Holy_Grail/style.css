@@ -1,0 +1,25 @@
+header, article, aside, footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+
+header {
+    background-color: orange;
+}
+
+article {
+    background-color: rgb(69, 162, 224);
+}
+
+.side1 {
+    background-color: coral;
+}
+
+.side2 {
+    background-color: rgb(153, 228, 153);
+}
+
+footer {
+    background-color: rgb(206, 153, 233);
+}
