@@ -1,0 +1,27 @@
+html, body, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div {
+    border: 3px solid red;
+    background-color: rgb(241, 140, 122);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#one {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}

@@ -1,0 +1,30 @@
+html, body, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 5px solid rgba(255, 0, 0, 0.781);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#one {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(247, 111, 88);
+}
+
+#two {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(250, 93, 172);
+}
