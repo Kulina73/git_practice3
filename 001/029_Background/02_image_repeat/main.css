@@ -1,0 +1,14 @@
+body, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 2000px;
+    border: 3px solid hotpink;
+    background-image: url(PXL_20210414_151434643.PORTRAIT.jpg);    
+    background-repeat: repeat-y;
+    background-position: center;
+}
