@@ -1,0 +1,29 @@
+html, body, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#one {
+    position: absolute;
+    border: 2px solid red;
+    height: 400px;
+    width: 200px;
+}
+
+#two {
+    margin-left: 202px;
+    border: 2px solid black;
+    height: 400px;
+}
+
+div {
+    padding: 10px;
+}

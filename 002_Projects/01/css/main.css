@@ -1,0 +1,168 @@
+html, body, header, div, nav, ul, li, main, h1, p, aside, article, section, h2, h3, h4, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;    
+    color:  rgb(39, 39, 39);
+    background-color: rgb(245, 245, 245);
+}    
+
+/* header */
+
+header {    
+    width: 100%;
+    background-color:  rgb(245, 245, 245);
+}
+
+.container {
+    display: flex;
+    /*width: 100%;*/
+    align-items: center;
+    background-color:  rgb(212, 211, 211);
+    /*border: 2px solid blue;*/
+}
+
+nav {
+    width: 60%;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    /*border: 2px solid hotpink;*/
+}
+
+li {
+    margin: 0 10px;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h4 {
+    width: 40%;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 1.7rem;    
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.headerimg {
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+}
+
+/* main */
+
+main {
+    /*border: 2px solid tomato;*/
+    margin-top: 5px;
+    display: flex;    
+}
+
+aside {
+    width: 100%;
+}    
+
+h1 {
+    font-style: italic;
+    letter-spacing: 0.3rem;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;    
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+span {
+    font-style: italic;
+}
+
+.artcont {
+    display: flex;
+    /*border: 2px solid rgb(223, 163, 75);*/
+    background-color: rgb(212, 211, 211);
+    margin: 20px auto;
+}
+
+.artcont img {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.mainp {
+    align-self: flex-start;
+    margin: 10px 20px 20px 10px;
+    text-align: left;
+}
+
+a.mainl {
+      color: rgb(194, 3, 3);
+}   
+
+a:hover {
+    color: rgb(247, 8, 87);
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+.sidecont {
+    display: flex;    
+    justify-content: space-between;
+    text-align: center;
+    /*border: 2px solid orchid;*/
+}
+
+section {
+    width: 32%;
+    height: 200px;
+    background-size: cover;
+    color: rgb(245, 245, 245);
+}
+
+.as01 {
+    background-color: rgb(207, 207, 9);
+    background-image: url("../images/PXL_20201225_194713301.MP_2.jpg");
+    /*width: 30%;*/
+}
+
+.as02 {
+    background-color: violet;
+    background-image: url("../images/00100trPORTRAIT_00100_BURST20201003095646743_COVER.jpg");
+    /*width: 30%;*/
+}
+
+.as03 {
+    background-color: tomato;
+    background-image: url("../images/MVIMG_20200921_121306.jpg");
+    /*width: 30%;*/
+}
+
+aside img {
+    /*width: 100%;*/
+    height: 100px;
+}
+
+/* footer */
+
+footer {
+    margin: 20px 10px;
+    /*border: 2px solid purple;*/
+}

@@ -1,0 +1,27 @@
+html {
+    background-color: blue;
+}
+body {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border: 20px groove goldenrod;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 24px;
+    color: blue;
+}
+h2 {
+    font-size: 24px;
+    color: red;
+}
+p {
+    font-weight: bolder;
+}
