@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+i.fa {
+    display: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;

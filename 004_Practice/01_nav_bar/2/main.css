@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /*border: 2px solid hotpink;*/
+    height: 70px;    
+    display: flex;
+    background-color: teal;
+}
+
+i.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 198, 198);
+    width: 30%;
+}
+
+ul {
+    width: 70%;
+    background-color: teal;
+}
+
+ul {
+    display: none;
+}

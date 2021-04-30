@@ -1,0 +1,36 @@
+html, header, body, div, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+header {
+    margin: 0 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+
+i {
+    color: blueviolet;
+}
+
+ul {
+    display: none;
+}
+
+.navmain {
+    text-transform: uppercase;
+}
