@@ -1,0 +1,62 @@
+header {
+    justify-content: space-between;
+}
+
+header div, header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header a:hover {
+    color: rgb(141, 197, 183);
+}
+
+header nav {
+    justify-content: space-between;
+}
+
+#idx-atf {
+    background-image: url(../images/background-photo.jpg);
+}
+
+#idx-atf > div {
+    height: 18vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    margin-top: 2.4rem;
+}
+
+.idx-hdr-svg {
+    width: 30px;
+    height: 100%;
+    /*fill: currentColor;*/
+    fill: whitesmoke;
+    padding: 5px 10px;
+}
+
+.idx-hdr-svg:hover {
+    fill: rgb(141, 197, 183);
+}
+
+header nav {
+    padding: 0 1rem;
+}
+
+/*header nav:hover {
+    border-radius: 5px;
+    background-color: dimgray;
+}*/

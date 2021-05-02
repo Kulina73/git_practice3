@@ -1,0 +1,104 @@
+body, section, h1, h2, h3, button, header {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    height: 2.8rem;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+header h1:hover {
+    color: rgb(141, 197, 183);
+}
+
+header nav {
+    display: none;
+}
+
+header a {
+    display: none;
+}
+
+#idx-atf {
+    /*layout*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    /*background*/
+    background-color: rgb(190, 189, 189);
+    background-image: url(../images/background-photo-mobile-devices.jpg);
+    background-size: cover; background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-attachment: fixed;
+    /*text formating*/
+}
+
+#idx-atf > div {
+    height: 90vh;
+}
+
+.idx-center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.idx-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section div h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+button {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 1px solid rgb(202, 250, 234);
+    color: rgb(202, 250, 234);;
+    border-radius: 3px;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
