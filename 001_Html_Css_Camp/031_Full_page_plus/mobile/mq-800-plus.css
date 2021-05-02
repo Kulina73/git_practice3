@@ -43,8 +43,6 @@ h2 {
 .idx-hdr-svg {
     width: 30px;
     height: 100%;
-    /*fill: currentColor;*/
-    fill: whitesmoke;
     padding: 5px 10px;
 }
 
@@ -60,3 +58,7 @@ header nav {
     border-radius: 5px;
     background-color: dimgray;
 }*/
+
+footer {
+    display: none;
+}

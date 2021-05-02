@@ -102,3 +102,43 @@ button {
     padding: 0.5rem;
     margin-top: 2rem;
 }
+
+footer {
+    
+    font-size: 2rem;    
+}
+
+svg {
+    fill: whitesmoke;
+    /*fill: currentColor;*/
+    width: 1.9em;
+    height: 1.9em;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-bottom: 1px solid rgba (0, 0, 0, 0.1);
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: deepskyblue;
+}
+
+footer nav a:last-child {
+    border-bottom: none;
+}
+
+footer nav a svg {
+    padding-right: 1.7rem;
+}
+
+footer nav a:hover {
+    background-color: royalblue;
+}
