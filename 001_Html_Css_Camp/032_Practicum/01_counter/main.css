@@ -1,0 +1,63 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3vw;
+}
+
+div#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div#counter {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    display: flex;
+    width: 19.2rem;
+    height: 4.8rem;
+}
+
+.mark1 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 213, 260);
+    color: honeydew;
+    border-right: 1px solid blue;
+    border-radius: 1rem 0 0 1rem;
+    /*width: 30%;*/
+    cursor: pointer;
+}
+
+div.number {
+    flex-grow: 2;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark2 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 213, 260);
+    color: honeydew;
+    border-left: 1px solid blue;
+    border-radius: 0 1rem 1rem 0;
+    /*width: 30%;*/
+    cursor: pointer;
+}
+
+.mark1:hover, .mark2:hover  {
+    background-color: rgba(0, 0, 255, 0.62);
+}
