@@ -1,0 +1,43 @@
+html, body, svg {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10vh;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circle-notch {
+    fill: currentColor;
+    height: 1em;
+    width: 1em;
+    position: relative;
+    left: 0;
+    animation-name: change-position;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes change-position {
+    0% {left: 0;}
+    100% {left: 60%;}
+    
+
+}
+
