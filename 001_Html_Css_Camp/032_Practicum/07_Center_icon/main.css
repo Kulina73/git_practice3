@@ -1,0 +1,33 @@
+html, body, svg {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    height: 40vh;
+    width: 40vh;
+    fill: violet;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 10vh;
+    /*justify-content: center;*/
+    border-radius: 50%;
+    box-shadow: -3px 3px 5px gray;
+    cursor: pointer;
+}
+
+button:hover {
+    fill: rgb(190, 42, 190);
+    background-color: rgb(206, 245, 129);
+}
+
+svg {
+    width: 18vh;
+}
