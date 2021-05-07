@@ -1,0 +1,84 @@
+html, body, main, footer, aside, h1, button {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2rem;
+}
+
+main {
+    /*border: 2px solid rgb(235, 131, 34);*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid grey;
+    margin: 0 2rem;
+}    
+
+h1 {
+    font-size: 3rem;
+    color: gray;
+    text-align: center;
+    
+}
+
+footer {
+    /*border: 2px solid hotpink;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin: 0 2rem;
+    border-bottom: 3px solid gray;
+}
+
+.spinner {
+    height: 1rem;
+    fill: gray;
+    animation-name: spinning-circle;
+    animation-duration: 3s;
+    animation-timing-function: linear;    
+}
+
+@keyframes spinning-circle {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);} 
+}
+
+aside {
+    display: flex;
+    /*flex-grow: 1;*/
+    justify-content: flex-start;
+    align-items: center;
+    color: gray;
+}
+
+.container {
+    display: flex;
+    /*flex-grow: 2;*/
+    justify-content: flex-end;
+}
+button {
+    font-size: 1.5em;
+    margin: 0 15px;
+    color: steelblue;
+    background-color: white;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: .3rem;
+    padding: 0.3rem;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
