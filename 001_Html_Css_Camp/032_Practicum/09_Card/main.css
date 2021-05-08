@@ -1,0 +1,58 @@
+html, div, body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(165, 170, 172);
+}
+
+.atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid rgb(202, 208, 210);
+    border-radius: 2vh;
+}
+
+.item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(202, 208, 210);
+    padding: 5vh;
+}
+
+svg {
+    height: 30vh;
+    width: 30vh;
+    fill: rgb(188, 210, 218)
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF3F5;    
+    border: rgb(163, 190, 206);
+    border-radius: 0 0 2vh 2vh;
+}
+    
+h1 {
+    font-size: 5vh;
+    padding: 5vh;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 4vh;
+    margin-top: 5vh;
+
+}
