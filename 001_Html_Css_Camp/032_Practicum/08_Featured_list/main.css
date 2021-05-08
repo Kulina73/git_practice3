@@ -1,0 +1,54 @@
+html, body, section, div, h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(126, 161, 173);
+    font-size: 1rem;
+}
+
+#atf {
+    /*border: 1px solid orange;*/
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    /*border: 2px solid hotpink;*/
+    height: 90%;
+    margin: 20vh;
+    border: 2px solid rgb(126, 161, 173);
+    border-radius: 2rem;
+    padding: 10vh;
+}
+
+.list-item {
+    /*border: 1px solid greenyellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(126, 161, 173);
+}
+
+.list-item:last-child {
+    border-bottom: none;
+}
+
+svg {
+    height: 25vh;
+    width: 25vh;
+    fill: rgb(163, 194, 204);
+    margin: auto 5vh;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 5vh;
+    margin: auto 5vh;
+}
