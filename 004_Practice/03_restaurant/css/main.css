@@ -29,19 +29,14 @@ nav {
     display: flex;    
     justify-content: center;
     align-items: center;
-
 }
 
 ul {
-    /*border: 1px solid hotpink;*/
     display: flex;
     flex-flow: row nowrap;
-    /*justify-content: center;
-    align-items: center;*/
 }
 
 li {
-    /*text-decoration: none;*/
     font-size: 0.9rem;
     padding: 5px;
     list-style: none;    
@@ -76,6 +71,7 @@ a:hover {
 }
 
 .atf-container {
+    /*border: 1px solid hotpink;*/
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -111,6 +107,7 @@ h2 {
 }
 
 aside {
+    /*border: 1px solid greenyellow;*/
     margin-top: 52vh;
     font-size: 1.5rem;
 }

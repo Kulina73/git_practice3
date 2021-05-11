@@ -19,6 +19,8 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .atf-container {
@@ -26,9 +28,9 @@ h2 {
 }
 
 aside {
-    margin-bottom: 0;
+    margin: auto 0;
     width: 27%;
-    height: 100vh;
+    height: 86vh;
     background-image: url("../images/pexels-cottonbro-4114063.jpg");
     background-color: brown;
     background-size: cover;
