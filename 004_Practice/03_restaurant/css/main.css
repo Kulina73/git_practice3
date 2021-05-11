@@ -1,0 +1,120 @@
+html, body, header,div, nav, li, ul, main, h1, h2, p, aside, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(100, 100, 100, 0.3);
+    /*height: 6vh;*/
+    width: 100vw;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+nav {
+    /*width: 100%;*/
+    height: 6vh;
+    /*border: 1px solid orange;*/
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+    /*border: 1px solid hotpink;*/
+    display: flex;
+    flex-flow: row nowrap;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+li {
+    /*text-decoration: none;*/
+    font-size: 0.9rem;
+    padding: 5px;
+    list-style: none;    
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+#header-home {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: tomato 
+}
+
+#atf {
+    /*border: 1px solid greenyellow;*/
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/pexels-valeria-boltneva-842571.jpg");
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    color: whitesmoke;
+    text-transform: uppercase;
+    /*line-height: 10vh;*/
+}
+
+.atf-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8vh;
+}
+
+aside {
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+h1 {
+    background-color: whitesmoke;
+    color: rgb(129, 43, 3);
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    margin: 2.5vh auto;    
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2.5px;
+    font-size: 1.5rem;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 7px;
+    margin: 5vh auto;
+}
+
+aside {
+    margin-top: 52vh;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: rgb(201, 188, 171);
+}
